@@ -1,11 +1,14 @@
-# EX. NO.5:Implementation of XOR  using RBF
-## NAME: PRIYADHARSHINI P
-## REGISTER NUMBER: 212224040252
-## DATE: 14-03-2026
-## Aim:</H3>
+<H1>EX. NO.5</H1>
+<H1 ALIGN =CENTER>Implementation of XOR  using RBF</H1>
+
+<H3>NAME : PRIYADHARSHINI P</H3>
+<H3>REGISTER NO : 212224040252</H3>
+
+<H3>DATE: 13.03.2026</H3>
+<H3>Aim:</H3>
 To implement a XOR gate classification using Radial Basis Function  Neural Network.
 
-## Theory:
+<H3>Theory:</H3>
 <P>Exclusive or is a logical operation that outputs true when the inputs differ.For the XOR gate, the TRUTH table will be as follows XOR truth table </P>
 
 <P>XOR is a classification problem, as it renders binary distinct outputs. If we plot the INPUTS vs OUTPUTS for the XOR gate, as shown in figure below </P>
@@ -22,7 +25,7 @@ A Neural network with input layer, one hidden layer with Radial Basis function a
 
 
 
-## ALGORITHM:
+<H3>ALGORITHM:</H3>
 Step 1: Initialize the input  vector for you bit binary data<Br>
 Step 2: Initialize the centers for two hidden neurons in hidden layer<Br>
 Step 3: Define the non- linear function for the hidden neurons using Gaussian RBF<br>
@@ -32,8 +35,9 @@ Step 5 : Determine the output  function as
 Step 6: Test the network for accuracy<br>
 Step 7: Plot the Input space and Hidden space of RBF NN for XOR classification.
 
-## PROGRAM:
-```
+<H3>PROGRAM:</H3>
+
+```python
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -104,13 +108,14 @@ print(f"Input:{np.array([0, 0])}, Predicted: {predict_matrix(np.array([0, 0]), w
 print(f"Input:{np.array([0, 1])}, Predicted: {predict_matrix(np.array([0, 1]), w)}")
 print(f"Input:{np.array([1, 0])}, Predicted: {predict_matrix(np.array([1, 0]), w)}")
 print(f"Input:{np.array([1, 1])}, Predicted: {predict_matrix(np.array([1, 1]), w)}")
-
 ```
-## OUTPUT:
+
+<H3>OUTPUT:</H3>
+
+<img width="1400" height="700" alt="Screenshot 2025-10-22 110000" src="https://github.com/user-attachments/assets/fc2134a4-a3a8-43a6-b51f-2964188962d8" />
 
 
-
-## Result:
+<H3>Result:</H3>
 Thus , a Radial Basis Function Neural Network is implemented to classify XOR data.
 
 
